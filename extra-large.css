@@ -131,13 +131,13 @@ h1
 
 .fleches
 {
-	width: 100%;
+	width: 100vw;
+	position: relative;
 }
 
 .pave1
 {
-	float: left;
-	left: none;
+	left: 0px;
 	height: 50px;
 	width: 50px;
 	position: absolute;
@@ -161,8 +161,7 @@ h1
 
 .pave2
 {
-	float: right;
-	right: none;
+	right: 0px;
 	height: 50px;
 	width: 50px;
 	position: absolute;
